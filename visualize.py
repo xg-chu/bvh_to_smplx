@@ -71,8 +71,7 @@ if __name__ == '__main__':
     smplx_renderer = SMPLX_Renderer('./assets')
     # convert bvh to smplx parameters
     print('Converting bvh to smplx parameters ...')
-    print('Only using the first 300 frames for visualization.')
-    pose_params, bvh_joints_params = bvh_to_smplx(args.pose_path)[:300]
+    pose_params, bvh_joints_params = bvh_to_smplx(args.pose_path)
     pose_params = torch.tensor(pose_params).cuda()
     # build smplx
     print('Building SMPLX vertices and parameters...')

@@ -99,8 +99,6 @@ def bvh_to_smplx(bvh_file):
     # get world positions
     # bvh_joints_params = get_joint_positions(mocap)
     bvh_joints_params = None
-
-
     return smplx_poses.astype(np.float32), bvh_joints_params
 
 

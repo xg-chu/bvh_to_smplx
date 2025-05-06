@@ -12,10 +12,10 @@ pip install bvh, scipy, pickle
 
 Convert and render mesh:
 ```
-python visualize.py -p ./demo/sample00_p1_fps20_Ske24013101001.bvh --render_mesh
+python visualize.py -p ./demo/sample.bvh --render_mesh
 ```
 
 Convert and render joint:
 ```
-python visualize.py -p ./demo/sample00_p1_fps20_Ske24013101001.bvh
+python visualize.py -p ./demo/sample.bvh
 ```

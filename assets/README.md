@@ -1,3 +1,9 @@
+Download ```models_smplx_v1_1.zip```, only ```SMPLX_NEUTRAL.npz``` is needed by this project.
+
+<details>
+<summary>Old version</summary>
+
+
 SMPLX related weights:
 
 ```
@@ -17,3 +23,4 @@ SMPLX_NEUTRAL.pkl
 smplx_npz.zip
 version.txt
 ```
+</details>
